@@ -1,11 +1,19 @@
 import React from 'react'
+import {
+    Nav,
+    NavLink,
+    Bars,
+    NavMenu,
+    NavBtn,
+    NavBtnLink
+  } from './NavbarElements';
 
 const Navbar = () => {
   return (
     <>
       <Nav>
           <NavLink to="/">
-              <img src='' alt='logo0'/>
+              <img src={require('../../images/logo.png')} alt='logo'/>
           </NavLink>
           <Bars />
           <NavMenu>
