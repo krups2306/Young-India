@@ -7,7 +7,7 @@ export const Nav = styled.nav`
   height: 80px;
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem calc((100vw - 1000px) / 2);
+  padding: 0.5rem;
   z-index: 10;
 `;
 
@@ -16,7 +16,7 @@ export const NavLink = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0 1rem;
+  padding-left: 2.5rem;
   height: 100%;
   cursor: pointer;
   &.active {
@@ -76,7 +76,7 @@ export const NavBtnLink = styled(Link)`
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   /* Second Nav */
-  margin-left: 24px;
+  margin-left: 50px;
   &:hover {
     transition: all 0.2s ease-in-out;
     background: #fff;

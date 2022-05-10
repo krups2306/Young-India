@@ -12,8 +12,8 @@ const Navbar = () => {
   return (
     <>
       <Nav>
-          <NavLink to="/">
-              <img src={require('../../images/logo.png')} alt='logo'/>
+          <NavLink to="/" >
+              <img  src={require('../../images/logo.png')} alt='logo' height="63px" width="156px" class="d-inline-block align-top"/>
           </NavLink>
           <Bars />
           <NavMenu>
